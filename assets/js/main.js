@@ -7,7 +7,7 @@ let divs = document.querySelectAll(".grid-container div");
 
 document.addEventListener("click", randomize);
 
-function randomize(){
+//function randomize(){
   divs.forEach(function(div){
     let scale = randomNumber(.5, 1.2);
     let translateX = randomNumber(0, 50);
