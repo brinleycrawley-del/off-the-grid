@@ -2,7 +2,11 @@
 function randomNumber(min, max){
   return Math.floor(Math.random() * (max - min) + 1) + min;
 }
+
 let divs = document.querySelectAll(".grid-container div");
+
+document.addEventListener("click", randomize);
+
 function randomize(){
   divs.forEach(function(div){
     let scale = randomNumber(.5, 1.2);
