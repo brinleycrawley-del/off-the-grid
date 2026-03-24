@@ -3,6 +3,7 @@
 * {
 	font-family: Arial;
 }
+
 body{
 	margin: 1rem;
 	background-color: black;
@@ -10,7 +11,14 @@ body{
 	font-size: 5rem;
 	overflow: hidden;
 }
+
 .grid-container{
+	margin: 10% 4rem 0 4rem;
 	display:grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.last {
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb (220, 200, 180);
 }
