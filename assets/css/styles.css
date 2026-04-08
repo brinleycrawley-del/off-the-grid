@@ -1,7 +1,9 @@
 /* styles.css */
 
 * {
-	font-family: Arial;
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jolly+Lodger&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">	
 }
 
 html, body{
@@ -9,9 +11,10 @@ html, body{
 	height: 100%;
 	margin: 0;
 	overflow: hidden;
-	background-color: black;
-	color: rgb(206, 206, 206);
+	background-color: rgba(161, 205, 238, 0.653);
+	color: rgb(5, 5, 5);
 	font-size: clamp(.5rem, 1.25vw, 1rem);
+	font-family: 'Courier Prime', Courier, monospace;
 	display: flex;
 	justify-content: center;
 	align-items: center;
